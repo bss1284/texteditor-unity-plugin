@@ -8,8 +8,9 @@ Text Editor for Unity
 
 ## HOW TO
 1. Go to 'Tools/BSS/Editor/Text Editor'
-2. Select Text Asset.
-3. Enjoy it.
+2. Open Text Editor Window.
+3. Select Text Asset.
+4. Editing and Save.
 
 ### CREATE BY
 - Sanghun Lee
