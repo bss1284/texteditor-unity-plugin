@@ -1,0 +1,14 @@
+{
+  "name": "com.bss.texteditor",
+  "version": "1.0.0",
+  "displayName": "BSS Text Editor",
+  "description": "Go to 'Tools/BSS/Editor/Text Editor'",
+  "unity": "2018.3",
+  "git": "https://github.com/bss1284/texteditor-unity-plugin",
+  "author": {
+    "name": "Sanghun Lee",
+    "email": "tkdgns1284@gmail.com",
+    "git":"https://github.com/bss1284"
+  },
+  "dependencies": {}
+}
