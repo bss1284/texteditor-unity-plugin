@@ -125,6 +125,8 @@ namespace BSS.TextEditor
 		{
 			if (Selection.activeObject == null) return false;
 			if (onlyTextAsset) return Selection.activeObject is TextAsset;
+			var go = Selection.activeObject as GameObject;
+			if (go != null && go.scene.IsValid()) return false;
 			var attr = File.GetAttributes(AssetUtility.GetSelectAssetPath());
 			return !attr.HasFlag(FileAttributes.Directory);
 
